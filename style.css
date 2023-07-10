@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('../pics/mon.png');
+    height: 36rem;
+    width: 78.9rem;
+    background-attachment: fixed;
+    
+}
+nav {
+    display: flex;
+    backdrop-filter: blur(2px);
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: rgba(39, 39, 42, 0.37);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.01rem;
+    color: rgb(231, 148, 133);
+}
+.center button{
+    font-size: small;
+    padding: 0px;
+    margin: 7px 52px;
+    width: 122px;
+    height: 39px;
+    border-radius: 22px;
+}
+.center{
+    color: white;
+    margin: 190px 0px 0px 502px;
+    
+}
+.intro{
+    height: 10rem;
+    width: 57rem;
+    text-align: center;
+    margin-left: 11rem;
+}
+.intro h2{
+    padding-top: 15px;
+}
+section{
+    height: 41rem;
+    margin: 0px 75px;
+    width: 70rem;
+    background-attachment: fixed;
+}
+section h2{
+    text-align: center;
+    margin: 8px;
+}
+.places{
+    display: flex;
+}
+.places img{
+    height: 9rem;
+    width: 14rem;
+}
+.places div{
+    text-align: center;
+}
+.travel{
+    display: flex;
+}
+.travel img{
+    height: 9rem;
+    width: 14rem;
+}
+.travel div{
+    text-align: center;
+}
+
+.test{
+    display: flex;
+}
+.test img{
+    height: 6rem;
+    width: 6rem;
+    padding: 27px;
+    border-radius: 99px;
+}
+.test div{
+    text-align: center;
+    background-color: rgb(216, 211, 211);
+    margin: 9px;
+    margin: 35px;
+}
+.test h4{
+    padding-bottom: 20px;
+}
+.test p{
+    padding-bottom: 25px;
+}
+.contact{
+    text-align: center;
+}
+.contact input{
+    padding: 4px;
+    border-style: solid;
+    margin: 20px;
+    width: 36rem;
+    height: 1.2rem
+    
+}
+#desc{
+    height: 12rem;
+}
+.btn button{
+    margin: 0px 16.7rem;
+    height: 2rem;
+    width: 6rem;
+    background-color: #494646;
+    color: white;
+}
+.end{
+    background-color: black;
+    color: white;
+    height: 10rem;
+    width: 78.9rem;
+    text-align: center;
+    font-size: 0.8em;
+}
+.end p{
+    padding-top: 55px;
+}
+
+@media screen and (max-width: 1200px) {
+  body{
+    max-width: none;
+  }
+}
