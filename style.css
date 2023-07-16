@@ -66,7 +66,13 @@ button {
     color: white;
     background-color: rgb(168 201 160 / 39%);
     backdrop-filter: blur(4px);
+    transition: ease-in-out 0.2s;
     
+}
+button:hover{
+    transform: scale(1.07);
+    transition: ease-in-out 0.2s;
+    overflow: hidden
 }
 
 .hero {
@@ -100,6 +106,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 75px 300px;
+    padding: 20px;   
 }
 .travel div,
 .destination div{
@@ -107,12 +114,20 @@ button {
     margin-bottom: 100px;
 }
 .travel img, .destination img{
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 280px;
+    padding: 10px;
 }
 .travel img:hover, .destination img:hover, .testimonials img:hover{
     transform: scale(1.07);
     transition: ease-in-out 0.2s;
-    overflow: hidden;
+
+    /* overflow: hidden; */
+    border-radius: 30px;
+}
+.imgs{
+    text-align: center;
 }
 .testimonials{
     display: flex;
